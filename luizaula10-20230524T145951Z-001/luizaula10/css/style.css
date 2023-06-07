@@ -1,0 +1,275 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
+
+.container-logoAndImagem{
+    background-color: rgb(255,194,52);
+    font-family: 'Anton', sans-serif;
+
+}
+.navbar{
+    background-color: rgb(255,194,52);
+    font-family: 'Anton', sans-serif;
+}
+.delivery{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Anton', sans-serif;
+}
+.container-logoAndImagem{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.principal{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.imagen1{
+    position: absolute;
+    bottom: 13%;
+}
+#imagens{
+
+    display: flex;
+    flex-direction: row;
+    padding: 50px;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+}
+.imagem{
+    padding: 70px;
+    position: relative;
+}
+.logo{
+    padding: 70px;
+}
+h1{
+    font-size: 140px;
+    color: rgb(65,31,9);
+}
+h2{
+    font-size: 90px;
+    color: rgb(65,31,9);
+}
+h3{
+    font-family: 'Anton', sans-serif;
+    font-size: 50px;
+    padding-top: 15px;
+}
+p{
+    font-size: 23px;
+    color: rgb(65,31,9);
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 20px;
+    padding-top: 10px;
+
+}
+span{
+    font-family: 'Roboto Condensed', sans-serif;
+
+}
+.always{
+    background-color: RGB(255,194,52);
+    font-size: 25px;    
+
+}
+.borda{
+    border: 3px dotted rgb(65,31,9);
+}
+.botaozao{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.imagem-principal{
+    background-image: url(../img/sessao1/fundo1.png);
+    width: 549px;
+    height: 387px;
+}
+.imagem-secundarias{
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+}
+.img1{
+    background-image: url(../img/sessao1/fundo2.png);
+    width: 548px;
+    height: 177px;
+}
+.img2{
+    background-image: url(../img/sessao1/fundo3.png);
+    width: 548px;
+    height: 177px;
+}
+.choose{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 250px;
+    padding-right: 250px;
+    font-size: 50px;
+}
+.discover{
+    font-size: 25px;
+}
+.cardapio{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 120px;
+    padding-top: 50px;
+}
+.card{
+    border: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Anton', sans-serif;
+
+}
+.btn{
+    background-color: RGB(223,28,28);
+    border: none;
+    border-radius: 1px;
+}
+.upcoming{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.hamburger{
+    padding-right: 250px;
+}
+.descriçao{
+    padding: 290px;
+}
+.reservation{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+}
+.forms{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.form-control{
+    margin-bottom: 20px;
+    width: 420px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: RGB(255,194,52);
+    color: rgb(65,31,9);
+    font-family: 'Anton', sans-serif;
+    border: none;
+}
+.botao{
+    margin-bottom: 20px;
+    width: 420px;
+    height: 40px;
+    color: white;
+    border-radius: 5px;
+    font-family: 'Anton', sans-serif;
+    border: none;
+
+}
+.img-principal{
+    color: white;
+    font-size: 15px;
+    display: flex;
+    padding-left: 15px;
+    padding-top: 10px;
+    font-family: 'Anton', sans-serif;
+
+}
+.img1-principal{
+    color: white;
+    font-size: 35px;
+    display: flex;
+    padding-left: 15px;
+}
+.img1-secundarias{
+    color: white;
+    font-size: 15px;
+    display: flex;
+    padding-left: 15px;
+    padding-top: 10px;
+    font-family: 'Anton', sans-serif;
+
+}
+.h3-secundarias1{
+    color: white;
+    font-size: 35px;
+    display: flex;
+    padding-left: 15px;
+    padding: 10px;
+}
+.h3-secundarias2{
+    color: white;
+    font-size: 35px;
+    display: flex;
+    padding-left: 15px;
+    padding: 10px;
+}
+.fundopng{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+}
+.rodape{
+    background-image: url("../img/rodape/fundo.png");
+    width: 100%;
+    height: 483px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    padding: 50px;
+    gap: 500px;
+}
+.rodape1{
+    display: flex;
+    flex-direction: row;
+}
+.footer1{
+    display: flex;
+    flex-direction: column; 
+}
+.loremfooter1{
+    color: white;
+}
+.footer2{
+    display: flex;
+    flex-direction: column;
+}
+.local{
+    color: white;
+}
+.email{
+    color: white;
+}
+.footer3{
+    display: flex;
+    flex-direction: row;
+}
+.company{
+    color: white;
+}
+
+
+
+
